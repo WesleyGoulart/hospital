@@ -1,13 +1,13 @@
 const prompt = require('prompt-sync')();
 const { cpf } = require('cpf-cnpj-validator');
 
-let campoNome
+let nomeCliente
 let campoConvenio
 let nomeConvenio
 let campoCpf
 
 // TODO: Validar nome. Não pode ter números
-campoNome = prompt('Digite o nome: ')
+nomeCliente = prompt('Digite o nome: ')
 campoCpf = prompt('Digite o CPF: ')
 if (!cpf.isValid(campoCpf)) {
     while(!cpf.isValid(campoCpf)) {
