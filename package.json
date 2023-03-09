@@ -1,0 +1,23 @@
+{
+  "name": "hospital",
+  "version": "1.0.0",
+  "description": "Vamos fazer um programa de controle de um hospital",
+  "main": "hospital.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyGoulart/hospital.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesleyGoulart/hospital/issues"
+  },
+  "homepage": "https://github.com/WesleyGoulart/hospital#readme",
+  "dependencies": {
+    "cpf-cnpj-validator": "^1.0.3",
+    "prompt-sync": "^4.2.0"
+  }
+}
