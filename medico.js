@@ -6,6 +6,8 @@ let estadoCrm
 let valorSemConvenio
 let valorComConvenio
 
+
+//Colocar CRM e valor só numero. Estado só duas letras.
 nomeMedico = prompt('Digite o nome do medico: ')
 crmMedico = parseInt(prompt('Digite o CRM: '))
 estadoCrm = prompt('Estado do CRM: ')
