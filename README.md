@@ -7,6 +7,7 @@ Inicialmente, vamos fazer um sistema onde seja possível fazer as seguintes oper
 - cadastrar médico, solicitando o nome, o CRM e o estado do CRM, que deve ser validado e o valor da consulta, com e sem convênio 
 - cadastrar um exame, solicitando o nome do exame, um código e o preço dele, com e sem convênio
 - incluir uma consulta ou um exame para um paciente, através do CPF do paciente, do crm do médico ou do código do exame
+- Juntar todos os módulos
 - o programa deve imprimir quanto um cliente está devendo ao hospital
 - o programa deve imprimir quanto um médico vai receber
 - o programa deve imprimir quanto cada exame faturou
