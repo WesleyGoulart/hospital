@@ -16,7 +16,7 @@ let clienteObj = {
 function cadastroCliente() {
 
     // TODO: Validar nome. Não pode ter números
-    novoCliente = prompt('Deseja cadastrar um novo cliente? Digite "1" para sim e "2" para encerrar.')
+    novoCliente = '1'
     while (novoCliente == '1') {
         nomeCliente = prompt('Digite o nome: ')
         clienteObj.nomeCliente = nomeCliente
@@ -26,6 +26,7 @@ function cadastroCliente() {
                 campoCpf = prompt('Digite um CPF válido: ')
             }
         }
+    
         clienteObj.campoCpf = campoCpf
         campoConvenio = prompt('Tem convênio? Digite "1" para sim e "2" para não: ')
         while(campoConvenio != '1' && campoConvenio != '2') {
@@ -45,8 +46,9 @@ function cadastroCliente() {
         }
 
         novoCliente = prompt('Deseja cadastrar um novo cliente? Digite "1" para sim e "2" para encerrar.')
-    }
+    
 
+    }
     console.log(dados)
 }
 
